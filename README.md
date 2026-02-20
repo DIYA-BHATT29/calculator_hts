@@ -1,4 +1,4 @@
-<img width="1080" height="1350" alt="image" src="https://github.com/user-attachments/assets/086bac0d-a707-4cc7-b8c8-2b7b969098c7" />
+<img width="720" height="900" alt="image" src="https://github.com/user-attachments/assets/086bac0d-a707-4cc7-b8c8-2b7b969098c7" />
 
 # 🧮 Calculator Web App
 
@@ -51,4 +51,5 @@ LBSITW
 
 Made with ❤️  
 Happy Coding 🚀
+
 
