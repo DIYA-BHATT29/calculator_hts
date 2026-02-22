@@ -21,6 +21,7 @@ arr.forEach((button) => {
         else {
             // fixed double i/p error
             string += e.target.innerHTML;
+            string = string.replace(/(^|[+\-*/(])0+(?=\d)/g, '$1');
             input.value = string;
         }
     });
