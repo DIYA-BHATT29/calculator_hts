@@ -75,7 +75,8 @@ document.addEventListener("keydown",(e) => {
     }
 });
 
-//block user from typing invalid keys like alphabets and special chars like @ # $
+//blocks user from typing invalid keys like alphabets and special chars like @ # $
+// It also blocks the use of space
 const allowedKeys = "0123456789+-*/().";
 input.addEventListener("keypress", function(e){
     if(!allowedKeys.includes(e.key)){
