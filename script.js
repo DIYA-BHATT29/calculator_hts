@@ -1,5 +1,5 @@
 let input = document.getElementById("inputBox");
-let buttons = document.querySelectorAll("button");
+let buttons = document.querySelectorAll(".calc button");
 let string = "";
 let arr = Array.from(buttons);
 
@@ -15,7 +15,7 @@ arr.forEach((button) => {
             input.value = string;
         }
         else if (e.target.innerHTML == "DEL") {
-            string = string.slice(0, string.length - 2); // deletes 2 chars instead of 1
+            string = string.slice(0, string.length - 1); // deletes 1 char instead of 2
             input.value = string;
         }
         else {
