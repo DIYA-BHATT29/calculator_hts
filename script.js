@@ -109,7 +109,9 @@ buttons.forEach((button) => {
         }
 
         else {
+            // fixed double i/p error
             string += value;
+            string = string.replace(/(^|[+\-*/(])0+(?=\d)/g, '$1');
             input.value = string;
             hideCopyBtn(); // user is still typing, hide the button
         }
