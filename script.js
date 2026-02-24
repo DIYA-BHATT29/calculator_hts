@@ -1,5 +1,5 @@
 let input = document.getElementById("inputBox");
-let buttons = document.querySelectorAll("button:not(#copyBtn)");
+let buttons = document.querySelectorAll(".calc button");
 let string = "";
 
 // ==================== COPY BUTTON ====================
@@ -156,4 +156,5 @@ input.addEventListener("paste", (e) => {
         input.value = string;
         hideCopyBtn();
     }
+
 });
